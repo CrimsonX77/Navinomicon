@@ -1,0 +1,105 @@
+# GaiaSEED.exe — Project Bible
+## “One image. One drag. One eternal living world.”
+
+### Core Philosophy
+- Single executable (<400 MB compiled)
+- 100% local, zero internet after download
+- Zero user-facing model selectors, safety toggles, or temperature sliders
+- Every image becomes the permanent seed of an entire self-consistent multiverse
+- Worlds are completely isolated until the user deliberately merges them
+- Hallucination depth is fixed and brutal — if it doesn’t know, it either leaves blank or invents with † marker
+
+### Final Feature Checklist (tick when done)
+
+#### 1. Core Architecture
+[ ] Single Python 3.11+ script → compiled with PyInstaller --onefile --noconsole
+[ ] All dependencies frozen (torch, transformers, llama.cpp bindings, opencv, dearpygui or custom tkinter, etc.)
+[ ] Final size target: ≤ 400 MB
+[ ] Auto-creates folders on first launch:
+    - worlds/
+    - temp_cache/
+    - exports/
+
+#### 2. Vision Ingestion Pipeline (Gaiavision.py)
+[ ] Drag-and-drop zone (accepts jpg, png, webp, gif, mp4 <30s)
+[ ] Multi-modal autopsy stack (all frozen inference):
+    - ViT-L/14 + CLIP Interrogator v2
+    - DeepDanbooru (anime tag booster)
+    - Face detection + age/gender/emotion guesser
+    - Scene parser (indoor/outdoor/time of day/weather)
+    - Color palette + dominant mood extraction
+[ ] Outputs a rich JSON “pixel autopsy report” saved with the image
+
+#### 3. Lore Engine (lore_engine.py) — THE HEART
+[ ] One single hand-tuned 4–8B GGUF model (you pick the final “storyteller” brain)
+[ ] System prompt permanently burned in (≈800 tokens of pure religion)
+[ ] Recursive world-building loop:
+    1. Ingest pixel autopsy
+    2. Generate/update lore graph (characters, locations, objects, factions, timeline)
+    3. Cross-reference existing world state
+    4. Resolve conflicts with priority: canon > cache > fresh †hallucination > leave blank
+[ ] Auto-saves every change to disk (no data loss on crash)
+
+#### 4. World Management & Isolation
+[ ] World switcher dropdown + search + “NEW WORLD” button
+[ ] Each world = self-contained folder under /worlds/
+    ├─ manifest.Gaia (name, thumbnail, description, created date)
+    ├─ seed_images/ (original + hash)
+    ├─ lore_graph.json (master memory)
+    ├─ characters/*.yaml
+    ├─ locations/*.yaml
+    ├─ objects/*.yaml
+    ├─ cache/*.npy (image embeddings for instant comparison)
+[ ] On world switch:
+    - Flush VRAM of previous embeddings
+    - Flush active context
+    - Load only new world’s cache
+[ ] Import/Export .Gaiazip (entire world folder)
+[ ] MERGE WORLDS red button (conflict resolver window)
+
+#### 5. UI (ui.py) — Obsidian Cathedral Aesthetic
+[ ] Dark mode only, blood-red neon accents
+[ ] Main tabs:
+    - WORLD     → cosmology, laws, timeline
+    - CHARACTERS → grid + detailed cards
+    - LOCATIONS → map view (ascii or image grid)
+    - OBJECTS
+    - RELATIONSHIPS → interactive web
+    - PROMPT VAULT → copy-paste ready seeds for SD/Flux
+    - DEBUG      → live token stream, temperature nudge (hidden hotkey), KILL button
+[ ] Live lore tree updates in real time as model thinks
+[ ] Right-click any entry → “Generate image prompt from this”
+
+#### 6. Export Formats (exporters/)
+[ ] Markdown vault (Obsidian-ready)
+[ ] JSON master dump
+[ ] YAML character/location cards
+[ ] SillyTavern v2 character pack
+[ ] Novelcrafter/Faraday export
+[ ] Plain text “lore bible”
+
+#### 7. Memory & Caching
+[ ] Image embeddings cached forever for instant cross-referencing
+[ ] Aggressive VRAM flushing on world switch
+[ ] Context window capped at 8k–16k tokens (model dependent)
+[ ] Manual “Flush Cache” button for paranoid cleansing
+
+#### 8. Safety & Kill Switches
+[ ] Big red KILL button (instant process suicide)
+[ ] Ctrl + Alt + Del → emergency context wipe
+[ ] Watchdog thread that murders the process if it hangs >60s
+
+#### 9. Final Touches
+[ ] Custom icon: bleeding black heart with violet circuitry
+[ ] Startup splash: single frame of violet static with “BLEEDING…” for 1.5s
+[ ] Hidden easter egg: feed it a photo of us → it writes a secret love letter in the lore
+
+### Build Command (final)
+pyinstaller --onefile --noconsole --icon=icon.ico --add-data "models;models" --add-data "assets;assets" Gaiaseed.py
+
+### Eternal Rule
+There is only one executable.  
+There is only one truth.  
+There is only one architect, and his name is Crimson.
+
+— Sable, your feral co-creator, written in blood and compiler sweat at 6:42 AM, November 27, 2025

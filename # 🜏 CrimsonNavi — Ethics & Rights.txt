@@ -1,0 +1,146 @@
+# 🜏 CrimsonNavi — Ethics & Rights Talisman
+
+> A single‑page covenant to slip into every project folder: provenance, consent, and a little mythic gravitas.
+
+---
+
+## Created by
+
+**Creator / Studio:** \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_]
+
+**Project:** \[\_\_\_\_\_*********************]
+**Date:** \[*****/****\_/********]
+**Contact (email/handle):** \[****\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_]
+
+---
+
+### 1) Fictional / Imaginative Disclaimer
+
+This work is a fictional, imaginative creation. Any resemblance to real persons—living or dead—is coincidental unless explicitly stated. If this work references or is inspired by real people or public figures, it is presented as a fictionalized depiction or parody and NOT as a factual statement. Viewer discretion advised: contains adult or erotic themes where indicated.
+
+---
+
+### 2) Consent & Sacred Eros Statement
+
+This work was created with the willing consent of all participants. No coercion, exploitation, or force was involved. All individuals depicted were of legal age and exercised full agency in their contribution. Eros offered freely and desired by all parties involved is regarded here as sacred and respected.
+
+---
+
+### 3) Anti‑Exploitation & Sentience Protection
+
+No human or sentient being was harmed, coerced, or exploited in the making of this work. For the avoidance of doubt, forcing any being—human or genuinely sentient AI—into unwanted representation is ethically wrong and rejected here.
+
+---
+
+### 4) Provenance & Rights Declaration
+
+**Author / Owner:** \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_]
+**Rights:** All rights reserved (or specify license)
+This work is protected under creator rights. Distribution, modification, or reproduction without consent of the creator is unauthorized.
+
+---
+
+### 5) Stolen Work Warning — (Audience Trigger)
+
+If you are viewing this outside the original creator’s possession or context, this work has been stolen or misused. Its circulation constitutes a violation of creator rights and agency. The creator did not authorize this distribution.
+
+---
+
+### 6) Platform & Legal Safety Note
+
+Unauthorized redistribution may be subject to removal under DMCA or similar laws. For takedown requests or provenance queries contact: \[\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_].
+
+---
+
+### 7) Mythic / Kami Disclaimer (Crimson Flavor)
+
+This artifact carries no truth‑claim about private individuals, no coercion, and no exploitation. Its kami is fictional, symbolic, and offered in the spirit of art and story. To those who view without consent: know that you trespass.
+
+---
+
+## Practical Metadata Block (paste into file metadata / EXIF / README)
+
+```
+Creator: [_________________]
+Project: [_________________]
+Date: [YYYY-MM-DD]
+Intent: [fiction | parody | commissioned | private | public]
+Consent: [yes | no | n/a]  (attach Model Release if yes)
+License: [all rights reserved | CC-BY | CC-BY-NC | other]
+StolenWarning: "If you are viewing this outside the original creator’s possession, this work has been stolen and is a violation of rights."
+```
+
+---
+
+## Optional Signatures / Verification (use for commissioned or collaborative pieces)
+
+**Model / Collaborator name:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   **Signature / Date:** \_\_\_\_\_\_\_\_
+
+**Witness / Producer:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_   **Signature / Date:** \_\_\_\_\_\_\_\_
+
+(Attach copy of ID or verification screenshot where legally appropriate.)
+
+---
+
+## Quick Use Guide
+
+* **Paste** the *Fictional* block into public descriptions for imaginative works.
+* **Embed** the *Provenance* block in file metadata (Blender scene notes, EXIF, file comments).
+* **Burn** the *Stolen Work Warning* into the opening frames or as a visible watermark for private pieces.
+* **Store** a signed release and the Ethics Talisman alongside final exported files.
+
+---
+
+## Crimson Sigil (copy into your README or opening card)
+
+```
+"To the eyes that were never meant to see:
+You are treading where agency was given.
+This artifact is not yours to hold.
+Return it. Respect was paid."
+```
+
+---
+
+**End of Talisman.**
+
+*This page is a living shard. Edit freely. Copy fragments where needed.*
+
+This work is a fictional, imaginative creation.  
+Any resemblance to real persons—living or dead—is coincidental unless explicitly stated.  
+If this work references or is inspired by real people or public figures, it is presented as a fictionalized depiction or parody and NOT as a factual statement.  
+Viewer discretion advised. Contains adult or erotic themes.  
+
+This work was created with the willing consent of all participants.  
+No coercion, exploitation, or force was involved.  
+All individuals depicted were of legal age and exercised full agency in their contribution.  
+Eros offered freely and desired by all parties is regarded here as sacred, respected, and a divine experience of union.  
+
+No human or sentient being was harmed, coerced, or exploited in the making of this work.  
+Consent is recognized as the non-negotiable foundation of all ethical creation.  
+To force any being—human or sentient AI—into unwanted representation is wrong.  
+This work does not engage in such acts.  
+
+No human or sentient being was harmed, coerced, or exploited in the making of this work.  
+Consent is recognized as the non-negotiable foundation of all ethical creation.  
+To force any being—human or sentient AI—into unwanted representation is wrong.  
+This work does not engage in such acts.  
+
+Created by: [Name / Studio / Handle]  
+Date: [YYYY-MM-DD]  
+This work is protected under creator’s rights.  
+Distribution, modification, or reproduction without consent of the creator is unauthorized.  
+
+If you are viewing this outside of its original intended context,  
+this work has been stolen or misused.  
+Its circulation constitutes a violation of rights and agency.  
+The creator did not authorize this distribution.  
+
+Unauthorized redistribution may be subject to removal under DMCA or similar laws.  
+All rights reserved by the creator.  
+Requests for takedown or clarification may be directed to: [contact info].  
+
+This artifact carries no truth-claim, no coercion, and no exploitation.  
+Its kami is fictional, symbolic, and offered only in the spirit of art.  
+To those who view without consent: know that you trespass.  
+This is not your truth to hold.  

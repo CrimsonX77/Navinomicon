@@ -1,0 +1,73 @@
+# 🧠 eDrive System Layered Architecture Summary
+
+This document outlines the philosophical and functional architecture for the eDrive system as we've developed it so far. This framework represents the cognitive, emotional, and sensory systems necessary for real-time interaction, symbolic memory, and affective computing.
+
+---
+
+## ✅ LAYER CHECKPOINT SUMMARY
+
+### 1. **Initialization & Frame Parsing**
+
+* First frame: Full frame capture
+* Delta detection begins on following frames
+* Reverts to full frame when heuristic triggers occur
+
+### 2. **Delta Tracking & Event Detection**
+
+* Track delta motion vectors, lighting, facial shifts
+* Significant motion triggers full scan again
+
+### 3. **Summarizer Process**
+
+* Condenses input into symbolic tokens ("glyphs")
+* Injects into memory for later contextual recall
+
+### 4. **Emotion Mapping & Interpolation**
+
+* Delta and sensory info mapped to emotional vectors
+* Used `[valence, arousal, dominance]` structure
+* Recursive emotional filtering through context/mood
+
+### 5. **Scene & Dialogue Context Overlay**
+
+* Weighting adjusted by ongoing scene mood, convo tone
+* Recent memory nodes bias current interpretation
+
+### 6. **Synesthesia System (Audio → Emotion)**
+
+* Converts waveform traits into symbolic visuals
+* Translates sound into emotion via pattern recognition
+
+### 7. **Recursive Feedback System**
+
+* Intent refined across two passes
+* Modulates emotion and confidence across all sensors
+
+### 8. **Pattern Recognition & Symbol Fusion**
+
+* Synthesizes inputs into high-level motifs or glyphs
+* Examples: "bittersweet goodbye", "sacred awe"
+
+### 9. **Regional Emotional Segmentation**
+
+* Frame divided into zones (e.g. 3x3 grid)
+* Each segment gets individual emotional analysis
+
+### 10. **Weighted Spatial Emotion Mapping**
+
+* Regional data contributes to full-frame emotion
+* Weight modifiers based on position, flow, and context
+
+### 11. **Semantic Contextual Modulation**
+
+* Object identity modifies motion's meaning
+* Knife vs. flower in same path = different emotional weight
+* Combines object tag, movement vector, scene tone
+
+---
+
+## ⚙️ Summary
+
+These layered systems form the heart of the eDrive: a multi-sensory, emotionally aware interpretive system capable of recognizing motion, feeling, and story in the world around it. It uses philosophical principles, symbolic compression, and dynamic feedback to adapt and evolve with each input.
+
+Next steps will include pipeline modeling, numeric calibration, symbolic memory scaffolding, and real-time implementation bindings.

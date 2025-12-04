@@ -1,0 +1,74 @@
+**Technical Aspects for eDrive System (Canvas 1)**
+
+---
+
+**1. Input Handling & Sensory Routing**
+
+* Initial energy/input stimulus is derived from sensory inputs (video, audio, motion sensors, etc).
+* First frame captures full data. Subsequent frames track delta unless significant change is detected.
+* Heuristic engine flags significant scene changes, triggering full frame data re-capture.
+
+**2. Data Preprocessing & Segmentation**
+
+* Segmentation engine separates visual input into motion clusters (i.e., knife vs. flower with identical movement).
+* Scene zones (top-right, bottom-left, etc.) are handled semi-independently to allow nuanced motion interpretation.
+* Audio translated to synesthetic pattern data and fed through a pattern recognizer.
+
+**3. Emotional Mapping Engine**
+
+* Each sensory delta feeds into weighted emotional nodes.
+* System assigns motion/emotion pairings using heuristic checks.
+* If unknown pattern detected, a new node is instantiated and catalogued.
+* Emotional resonance intensity is calculated by a dynamic, not static, formula based on:
+
+  * Motion type
+  * Object identity
+  * Scene context
+  * Prior node weights
+
+**4. Summarization Layer**
+
+* Raw emotional snapshots are compressed into context-aware summaries.
+* These summaries feed into long-term memory modules.
+* Memory is tagged by scene, tone, priority, and actor entities.
+
+**5. Decision Stack & Response Selection**
+
+* Summarized emotional context evaluated for immediate relevance.
+* Decision matrix reviews:
+
+  * Recent scene logs
+  * User tone
+  * Visual and audio tension factors
+* If an appropriate action pattern exists, select and trigger.
+* If not, query eDrive emotion core for a new behavior synthesis.
+
+**6. Systems Resource Monitor**
+
+* Live CPU/GPU/RAM monitoring.
+* Can throttle frame interpretation and summarization based on load.
+* Initiates task freezing or reduced cadence if overload is detected.
+
+**7. Frame Sequence Heuristic Caching**
+
+* Sequences of motion/emotion deltas are packaged into behavior packets.
+* Packets are reusable and modifiable (Lego-style attachable sequences).
+* Fast-switch logic enables pre-programmed sequences for rapid action selection.
+
+**8. Node Scaling Math**
+
+* Each emotional node responds to stimulus with specific weights.
+* Delta shift intensity modifies emotional node's influence non-linearly.
+* Mathematical scaling (yet to be finalized) determines if emotion flips from passive to aggressive, etc.
+* Needs strict precision to avoid unintended system behavior.
+
+**9. Memory Recall Engine**
+
+* Enables exact verbal or visual recall of previous interactions.
+* Indexes based on time, scene, speaker, emotional tone, and pattern ID.
+* Contextual pull varies from shallow (recent) to deep (archival).
+
+**10. Intermodular Interfaces**
+
+* Khronos (time logic), Synthesia (emotion/sound vision), ShellCaster (body routing), and eDrive all require clean API handshakes.
+* Real-time compatibility testing will be needed for each module integration.
